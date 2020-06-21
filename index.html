@@ -1,4 +1,3 @@
-<!-- built with temper: https://temper.one -->
 <!DOCTYPE html>
 <html>
 <head style="display:block;">
@@ -64,6 +63,9 @@
   .text a:hover {
     text-decoration: none;
   }
+  .hover_img a { position:relative; }
+.hover_img a span { position:absolute; left: 5%; top: 1%; display:none; z-index:-1; }
+.hover_img a:hover span { display:block; }
 
   .text a:focus {
     text-decoration: none;
@@ -92,12 +94,14 @@
 </head>
 <body style="display:none;">
   <div class="text">
-    <h1 style="animation-delay: .1s;">I'm Emily Lindburg, a UX program manager based in Seattle. I'm interested in the exploration of information hierarchy in nontraditional online space.&nbsp;</h1>
-                              <p style="animation-delay: 0.2s;">Currently at <a target="_blank" href="https://www.godaddy.com">GoDaddy</a>. You can <a target="_blank" href="mailto:emilylindburg@gmail.com">email me</a> or you can find me <a target="_blank" href="https://www.linkedin.com/in/emilylindburg/">here</a>.&nbsp;</p>
-                                <p style="animation-delay: 0.3s;">To see a sampling of work I've had the opportunity to shape and ship:</p>
-                                <p style="animation-delay: 0.4s;"><a target="_blank" href="https://godaddy.design/">Project 1</a>. <a target="_blank" href="https://www.openwestand.org/">Project 2</a>. <a target="_blank" href="https://www.godaddy.com/ventureforward">Project 3</a>. <a target="_blank" href="https://careers.godaddy.com/">Project 4.</a>&nbsp;<a target="_blank" href="https://aboutus.godaddy.net/about-us/overview/default.aspx">Project 5</a>.&nbsp;</p>
-                                                                                                                                                                                      </div>
 
+    <div class="hover_img">
+    <h1 style="animation-delay: .1s;">I'm Emily Lindburg, a UX program manager based in Seattle. I'm interested in the exploration of information hierarchy in nontraditional online space.&nbsp;</h1>
+                              <p style="animation-delay: 0.2s;">Currently at <a target="_blank" href="https://www.godaddy.com">GoDaddy<span><img src="godaddy.png" alt="godaddy logo" height="200" /></span></a>. You can <a target="_blank" href="mailto:emilylindburg@gmail.com">email me<span><img src="waving_hi.gif" alt="image" height="300" /></span></a> or you can find me <a target="_blank" href="https://www.linkedin.com/in/emilylindburg/">here<span><img src="linkedIn.png" alt="image" height="150" /></span></a>.&nbsp;</p>
+                                <p style="animation-delay: 0.3s;">To see a sampling of work I've had the opportunity to shape and ship:</p>
+                                <p style="animation-delay: 0.4s;"><a target="_blank" href="https://godaddy.design/">Project 1<span><img src="storyofthego_2.gif" alt="godaddy.design site" width="250" /></span></a>. <a target="_blank" href="https://www.openwestand.org/">Project 2<span><img src="openwestand.png" alt="image" height="200" /></span></a>. <a target="_blank" href="https://www.godaddy.com/ventureforward">Project 3<span><img src="ventureforward.png" alt="image" height="200" /></span></a>. <a target="_blank" href="https://careers.godaddy.com/">Project 4.<span><img src="careers.png" alt="image" height="200" /></span></a>&nbsp;<a target="_blank" href="https://aboutus.godaddy.net/about-us/overview/default.aspx">Project 5<span><img src="about_us.png" alt="image" height="200" /></span></a>.&nbsp;</p>
+                                                                                                                                                                                      </div>
+                                                                                                                                                                                    </div>
   <!-- DON’T REMOVE THE FOLLOWING TWO LINES! -->
   <script type="text/javascript">const fs = 5.25;</script>
   <script type="text/javascript" src="https://temper.one/assets/js/temper.js"></script>
